@@ -1,8 +1,11 @@
 <h2>Running Locally</h2>
-- Clone into a new directory
-- cd into said directory
-- run npm install (or yarn)
-- run npm start
+1) Clone into a new directory
+
+2) cd into said directory
+
+3) run npm install (or yarn)
+
+4) run npm start
 
 <h2>Design Choices</h2>
 
