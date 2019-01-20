@@ -1,10 +1,11 @@
-Running Locally
+<h2>Running Locally</h2>
 - Clone into a new directory
 - cd into said directory
 - run npm install (or yarn)
 - run npm start
 
-Design Choices
+<h2>Design Choices</h2>
+
 Q) Where's your state management library??
 
 A) I decided to opt for lifting the state up into a parent component, cause the all child components were not that deep in. Also, there were only really 2 states that were shared between sibling components so redux or mobX both seemed a little overkill. I was close to using React's improved Context API and using a Provider and Consumer pattern to manage local state, but opted against it (even that seemed overkill).
