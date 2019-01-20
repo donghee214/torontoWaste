@@ -1,4 +1,5 @@
 <h2>Running Locally</h2>
+
 1) Clone into a new directory
 
 2) cd into said directory
