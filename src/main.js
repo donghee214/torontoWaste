@@ -26,7 +26,12 @@ class Main extends PureComponent{
 	}
 	
 	componentDidMount(){
-		this._fetchData()
+		try{	
+			this._fetchData()
+		}
+		catch(err){
+			throw new Error(err)
+		}
 	}
 
 	// fetch the data once on load and cache it to avoid making unnecessary calls
